@@ -835,7 +835,7 @@ input[type="radio"]:checked + label span {
 
 .banner-subpage {
   padding: 65px;
-  background-size: cover; }
+  background-size: cover !important; }
   .banner-subpage .container {
     padding: 0; }
     .banner-subpage .container div {
@@ -857,6 +857,29 @@ input[type="radio"]:checked + label span {
 
 .page-template-template-employer #content > .container {
   padding: 0; }
+
+.page-template-template-employer .site-content .entry-content .vc_column-inner .wpb_wrapper ul li > div {
+  width: 100%; }
+
+.page-template-template-employer .site-content .entry-content .vc_column-inner .wpb_wrapper ul li::before {
+  display: none; }
+
+.page-template-template-jobseeker .SumoSelect {
+  display: inline-block;
+  position: relative;
+  outline: 0;
+  background: #fff !important;
+  padding: 4px 10px;
+  -webkit-box-shadow: 0 0 1px 1px #363636;
+  box-shadow: 0 0 1px 1px #363636; }
+  .page-template-template-jobseeker .SumoSelect .CaptionCont.SelectBox {
+    border: 0 !important; }
+
+.page-template-template-jobseeker .site-content .entry-content .vc_column-inner .wpb_wrapper ul li > div {
+  width: 100%; }
+
+.page-template-template-jobseeker .site-content .entry-content .vc_column-inner .wpb_wrapper ul li::before {
+  display: none; }
 
 #banner-caption .vc_col-sm-5 .wpb_content_element {
   padding: 5px 20px; }

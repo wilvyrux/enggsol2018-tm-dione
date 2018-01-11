@@ -28,7 +28,7 @@
 
 .banner-subpage {
     padding: 65px;
-    background-size:cover;
+    background-size:cover !important;
 
     .container {
         padding: 0;
@@ -81,7 +81,77 @@
         }
         
     } 
+
+
+    .site-content {
+        .entry-content {
+             .vc_column-inner {
+                .wpb_wrapper {
+                    ul {
+                        li {
+
+                            > div {
+                                width: 100%;
+                            }
+
+                            &::before {
+                                display: none;
+                            }
+                            
+                        }
+                    }
+                }
+             }
+        }
+    }
+
+
     
+}
+
+
+
+.page-template-template-jobseeker {
+
+    .SumoSelect {
+        display: inline-block;
+        position: relative;
+        outline: 0;
+        background: $color-white;
+        padding: 4px 10px;
+        -webkit-box-shadow: 0 0 1px 1px #363636;
+        box-shadow: 0 0 1px 1px #363636;
+
+        .CaptionCont.SelectBox {
+            border:0 !important;
+        }
+
+
+    }
+
+    .site-content {
+        .entry-content {
+             .vc_column-inner {
+                .wpb_wrapper {
+                    ul {
+                        li {
+
+                            > div {
+                                width: 100%;
+                            }
+
+                            &::before {
+                                display: none;
+                            }
+                            
+                        }
+                    }
+                }
+             }
+        }
+    }
+    
+
 }
 
 
