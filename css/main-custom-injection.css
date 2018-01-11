@@ -834,7 +834,8 @@ input[type="radio"]:checked + label span {
   /* IE6-9 */ }
 
 .banner-subpage {
-  padding: 65px; }
+  padding: 65px;
+  background-size: cover; }
   .banner-subpage .container {
     padding: 0; }
     .banner-subpage .container div {
