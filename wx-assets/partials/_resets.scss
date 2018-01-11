@@ -1,0 +1,176 @@
+
+body {
+    font-family: $font-primary;
+    font-size: 15px;
+}
+
+
+ul {
+    list-style: none;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+div,
+ul li,
+a {
+    font-family: $font-primary;
+}
+
+
+h1.vc_custom_heading,
+h2.vc_custom_heading,
+h3.vc_custom_heading,
+h4.vc_custom_heading,
+h5.vc_custom_heading
+{
+    font-family: $font-secondary;
+}
+
+
+
+p {
+    font-family: $font-third; 
+    color: $color-dark;
+}
+
+.page-template-template-aboutus-subpages {
+    
+    
+    .wpb_wrapper {
+
+        h2,h3,h4,h5 {
+            font-size: 1.5em;
+            text-transform: uppercase;
+            margin: 15px 0;
+        }
+
+
+        ul {
+
+                li {
+                    position: relative;
+                    line-height: 24px;
+                    font-size: 1em;
+                    font-family: $font-third;
+
+                    &:before {
+                        content: "\f101";
+                        position: absolute;
+                        left: -15px;
+                        top: 3px;
+                        @include fontawesome;
+                    }
+                }
+        }
+
+        h2 {
+            i {
+                font-size: 1.7em;
+                margin-right: 10px;
+            }
+        }
+
+
+    }
+    
+}
+
+
+
+
+@media only screen and (max-width:1022px) {
+    
+    #jobresults-wrapper #jobresult-content-wrapper .job-lists-wrapper {
+        height: auto !important;
+    }
+    
+    #jobresults-wrapper #jobresult-content-wrapper .rty-jobs-content-holder .job-content-page-wrapper .job-details ul {
+        font-size: 1em !important;
+    }
+    
+    #jobresults-wrapper #filter-buttons ul li {
+        span {
+            border: 0 !important;
+        }
+        
+        font-size: 1em !important;
+    }
+    
+    .small-text {
+        font-size: .9em !important;
+        font-weight: $bold;
+    }
+    ul.top-holder {
+        display: none;
+    }
+    
+
+    
+}
+
+
+
+
+
+
+@media only screen and (max-width:600px) {
+
+
+    
+    #gform_wrapper_5 {
+        .gform_body {
+            
+            ul {
+                li {
+                    .ginput_container.ginput_container_text {
+                        width: 100% !important;
+                        
+                        input {
+                            max-width: 100% !important;
+                            width: 100% !important
+                        }
+                    }
+
+
+                }
+            }
+        }
+        
+        .gform_footer {
+            float: none;
+            width: 100%;
+        }
+        
+        
+    }
+    
+    
+    
+}
+
+
+
+
+
+
+//REMOVE ELEMENTS
+
+#shortcode-information-wrapper,.vc_grid-pagination {
+    ul {
+        li {
+            &::before {
+                display: none; 
+            }
+        }
+    }
+}
+
+
+
+
