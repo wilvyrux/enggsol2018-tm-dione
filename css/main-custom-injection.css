@@ -729,6 +729,9 @@ p {
         color: #fff !important;
         background: #0043c8 !important; }
 
+.getquote-product .wpb_wrapper h2 i {
+  margin-right: 10px; }
+
 .form-request .gform_wrapper .gform_body ul li {
   width: 100% !important; }
 
@@ -1026,6 +1029,9 @@ input[type="radio"]:checked + label span {
       display: block; }
       .single-bottom-holder .realated-holder a:hover {
         opacity: .6; }
+
+.branchs {
+  color: #fff !important; }
 
 #accordion .panel-title a.collapsed {
   background: transparent;
@@ -1676,7 +1682,8 @@ input[type="radio"]:checked + label span {
         z-index: 9;
         font-size: 1.10em;
         text-transform: uppercase;
-        line-height: 24px; }
+        line-height: 24px;
+        font-family: "Raleway", sans-serif !important; }
       .wx-group-animation.secondary-heading .steps .step-holder::after {
         background: #000;
         position: absolute;
@@ -1771,6 +1778,10 @@ input[type="radio"]:checked + label span {
       width: 155px;
       bottom: -29px;
       right: 23px; }
+
+#content .wx-group-animation.primary-heading .steps h3,
+#content .wx-group-animation.secondary-heading .steps h3 {
+  font-family: "Raleway", sans-serif !important; }
 
 .getquote-product {
   position: fixed;
