@@ -103,6 +103,23 @@
 }
 
 
+// CUSTOM FOR ABOUT VIEW ONLY 
+.page-id-3308 {
+    .side-contacts {
+        a.employer {
+            display: block !important;
+         }
+        a.jobseeker { 
+            display: none !important; 
+        }
+    }
+}
+
+
+
+
+
+
 //TEMPLATE SETTINGS 
 .page-template-template-jobseeker,
 .page-template-template-jobseeker-subpages,

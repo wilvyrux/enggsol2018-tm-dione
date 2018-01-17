@@ -164,6 +164,12 @@ p {
     width: 110px;
     height: 229px; }
 
+.page-id-3308 .side-contacts a.employer {
+  display: block !important; }
+
+.page-id-3308 .side-contacts a.jobseeker {
+  display: none !important; }
+
 .page-template-template-jobseeker .left-menu ul li:nth-child(1) a,
 .page-template-template-jobseeker-subpages .left-menu ul li:nth-child(1) a,
 .page-template-template-aboutus-subpages .left-menu ul li:nth-child(1) a,
