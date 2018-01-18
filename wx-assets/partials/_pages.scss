@@ -400,13 +400,44 @@
     
 }
 
-// sample for branch
-.branchs {
-    color: $color-white;
+// FOR JOB OUTOUTS
+.col-md-4.rty-jobs-view-holder {
+    .job-lists-wrapper {
+        border-right:1px solid $color-lightgray;
+    }
 }
 
+.job-btn-wrapper {
+    padding:30px 0;
 
+    .primary-buttons {
+        margin: 0;
+    }
 
+    .social-holder {
+        span {
+            a {
+                padding: 5px;
+                background: $color-gray;
+                margin: 2px;
+                color: $color-white;
+                width: 30px !important;
+                display: inline-block;
+                text-align: center;
 
+                &:hover {
+                    opacity: .4;
+                }
+            }
+        }
+    }
+
+    > div {
+        &:last-child {
+            text-align:right;
+        }
+    }
+
+}
 
 

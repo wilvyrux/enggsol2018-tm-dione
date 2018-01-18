@@ -106,11 +106,13 @@
 // CUSTOM FOR ABOUT VIEW ONLY 
 .page-id-3308 {
     .side-contacts {
+        top: 30% !important;
+        
         a.employer {
             display: block !important;
          }
         a.jobseeker { 
-            display: none !important; 
+            display: block !important; 
         }
     }
 }

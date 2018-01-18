@@ -164,11 +164,12 @@ p {
     width: 110px;
     height: 229px; }
 
-.page-id-3308 .side-contacts a.employer {
-  display: block !important; }
-
-.page-id-3308 .side-contacts a.jobseeker {
-  display: none !important; }
+.page-id-3308 .side-contacts {
+  top: 30% !important; }
+  .page-id-3308 .side-contacts a.employer {
+    display: block !important; }
+  .page-id-3308 .side-contacts a.jobseeker {
+    display: block !important; }
 
 .page-template-template-jobseeker .left-menu ul li:nth-child(1) a,
 .page-template-template-jobseeker-subpages .left-menu ul li:nth-child(1) a,
@@ -1037,8 +1038,25 @@ input[type="radio"]:checked + label span {
       .single-bottom-holder .realated-holder a:hover {
         opacity: .6; }
 
-.branchs {
-  color: #fff !important; }
+.col-md-4.rty-jobs-view-holder .job-lists-wrapper {
+  border-right: 1px solid #f6f6f6 !important; }
+
+.job-btn-wrapper {
+  padding: 30px 0; }
+  .job-btn-wrapper .primary-buttons {
+    margin: 0; }
+  .job-btn-wrapper .social-holder span a {
+    padding: 5px;
+    background: #575756 !important;
+    margin: 2px;
+    color: #fff !important;
+    width: 30px !important;
+    display: inline-block;
+    text-align: center; }
+    .job-btn-wrapper .social-holder span a:hover {
+      opacity: .4; }
+  .job-btn-wrapper > div:last-child {
+    text-align: right; }
 
 #accordion .panel-title a.collapsed {
   background: transparent;
