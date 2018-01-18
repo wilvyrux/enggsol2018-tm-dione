@@ -92,6 +92,11 @@ p {
 #shortcode-information-wrapper ul li::before, .vc_grid-pagination ul li::before {
   display: none; }
 
+.white-text h5 {
+  color: #fff !important;
+  font-weight: 700;
+  padding: 5px 0; }
+
 .primary-buttons {
   padding: 10px 35px 10px 15px;
   background: #403e3f !important;
@@ -824,6 +829,112 @@ input[type="radio"] + label span {
 input[type="radio"]:checked + label span {
   background-position: -60px -159px; }
 
+.jobalerts ::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #575756 !important; }
+
+.jobalerts ::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #575756 !important; }
+
+.jobalerts :-ms-input-placeholder {
+  /* IE 10+ */
+  color: #575756 !important; }
+
+.jobalerts :-moz-placeholder {
+  /* Firefox 18- */
+  color: #575756 !important; }
+
+.jobalerts .gform_wrapper {
+  max-width: 100%;
+  margin: 0; }
+  .jobalerts .gform_wrapper .validation_error {
+    font-size: 11px !important;
+    background: #403e3f !important;
+    padding: 11px !important;
+    color: #fff !important !important;
+    border: 0 !important; }
+  .jobalerts .gform_wrapper .gform_heading {
+    display: none; }
+  .jobalerts .gform_wrapper .gform_body {
+    width: 100%;
+    float: left;
+    clear: none !important; }
+    .jobalerts .gform_wrapper .gform_body h2 {
+      text-transform: uppercase;
+      font-weight: 500; }
+    .jobalerts .gform_wrapper .gform_body ul .gfield.gfield_error,
+    .jobalerts .gform_wrapper .gform_body ul .gfield.gfield_error.gfield_contains_required.gfield_creditcard_warning {
+      padding: 5px !important;
+      background: #403e3f !important;
+      max-width: 100% !important;
+      width: 100% !important;
+      color: #fff !important !important; }
+    .jobalerts .gform_wrapper .gform_body ul li {
+      margin-bottom: 15px;
+      padding: 0 !important;
+      clear: none;
+      float: left;
+      margin: 0;
+      margin-bottom: 12px; }
+      .jobalerts .gform_wrapper .gform_body ul li div {
+        margin: 0 !important;
+        position: relative; }
+      .jobalerts .gform_wrapper .gform_body ul li .ginput_container {
+        background: #fff !important;
+        position: relative; }
+        .jobalerts .gform_wrapper .gform_body ul li .ginput_container:before {
+          position: absolute;
+          width: 16px;
+          height: 16px;
+          top: 11px;
+          margin: auto;
+          left: 10px;
+          content: ''; }
+      .jobalerts .gform_wrapper .gform_body ul li input, .jobalerts .gform_wrapper .gform_body ul li button, .jobalerts .gform_wrapper .gform_body ul li select, .jobalerts .gform_wrapper .gform_body ul li textarea {
+        width: 100% !important;
+        color: #575756 !important;
+        padding: 10px 30px;
+        background: transparent;
+        outline: 0;
+        border: 1px solid #fff !important;
+        font-size: .8em;
+        -webkit-box-shadow: inset 1px 2px 6px 1px rgba(0, 0, 0, 0.2);
+        box-shadow: inset 1px 2px 6px 1px rgba(0, 0, 0, 0.2); }
+      .jobalerts .gform_wrapper .gform_body ul li > label {
+        display: none; }
+      .jobalerts .gform_wrapper .gform_body ul li::before {
+        display: none; }
+      .jobalerts .gform_wrapper .gform_body ul li h3, .jobalerts .gform_wrapper .gform_body ul li label {
+        font-size: .9em;
+        text-transform: uppercase;
+        font-weight: 700; }
+  .jobalerts .gform_wrapper .gform_footer {
+    float: left;
+    clear: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    margin-top: 10px !important;
+    background: #403e3f !important; }
+    .jobalerts .gform_wrapper .gform_footer input[type="submit"] {
+      background: #403e3f !important;
+      margin: 5px;
+      width: auto;
+      border: 1px solid #fff !important;
+      color: #fff !important;
+      border: 1px solid #fff !important;
+      text-transform: uppercase;
+      padding: 8px 55px 8px 15px;
+      width: auto;
+      -webkit-transition: all 0.6s ease;
+      -moz-transition: all 0.6s ease;
+      -ms-transition: all 0.6s ease;
+      -o-transition: all 0.6s ease;
+      transition: all 0.6s ease; }
+      .jobalerts .gform_wrapper .gform_footer input[type="submit"]:hover {
+        color: #fff !important;
+        background: #0043c8 !important; }
+
 #animation-bar::after {
   content: '';
   left: 0;
@@ -1349,6 +1460,9 @@ input[type="radio"]:checked + label span {
     content: '';
     display: block;
     clear: both; }
+
+.rty-search-wrapper input, .rty-search-wrapper select, .rty-search-wrapper label, .rty-search-wrapper span {
+  font-family: "Raleway", sans-serif !important; }
 
 .job-lists-wrapper .rty-pagination {
   text-align: center; }
