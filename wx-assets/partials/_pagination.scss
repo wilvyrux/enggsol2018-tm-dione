@@ -1,0 +1,39 @@
+.job-lists-wrapper {
+	.rty-pagination {
+		text-align: center;
+
+		li {
+			 display: inline-block;
+   			 padding: 9px;
+   			 color: $color-secondary;
+
+   			 a {
+   			 	display: block;
+   			 	font-weight: $bold;
+   			 	color: $color-primary;
+   			 	text-decoration: none;
+
+   			 	&:hover {
+   			 		opacity: .5;
+   			 	}
+
+   			 	i {
+   			 		color: $color-secondary;
+   			 	}
+   			 }
+		}
+
+		li.rty-disabled {
+			opacity: .4;
+		}
+
+		li.active {
+			a {
+				background: $color-secondary;
+				padding: 0 4px;
+				color: $color-white;
+				pointer-events: none;
+			}
+		}
+	}
+}
