@@ -1169,6 +1169,11 @@ input[type="radio"]:checked + label span {
   .job-btn-wrapper > div:last-child {
     text-align: right; }
 
+.add-testimonial {
+  cursor: pointer; }
+  .add-testimonial:hover {
+    opacity: .5; }
+
 #accordion .panel-title a.collapsed {
   background: transparent;
   border: 0 !important;
@@ -2064,10 +2069,45 @@ input[type="radio"]:checked + label span {
     .getquote-product .quote-wrapper .body-content.form-contact,
     .getquote-product .quote-wrapper .body-content.form-resume,
     .getquote-product .quote-wrapper .body-content.form-request,
-    .getquote-product .quote-wrapper .body-content.form-jobalert {
+    .getquote-product .quote-wrapper .body-content.form-jobalert,
+    .getquote-product .quote-wrapper .body-content.form-testimonial {
       display: none; }
     .getquote-product .quote-wrapper .body-content.visible {
       display: block; }
+    .getquote-product .quote-wrapper .form-testimonial .form-testimonial-wrapper .form-group::after {
+      display: block;
+      clear: both;
+      content: ''; }
+    .getquote-product .quote-wrapper .form-testimonial .form-testimonial-wrapper .form-group input, .getquote-product .quote-wrapper .form-testimonial .form-testimonial-wrapper .form-group select, .getquote-product .quote-wrapper .form-testimonial .form-testimonial-wrapper .form-group textarea {
+      width: 100% !important;
+      color: #575756 !important;
+      padding: 10px 30px;
+      background: transparent;
+      outline: 0;
+      border: 1px solid #fff !important;
+      font-size: .8em;
+      -webkit-box-shadow: inset 1px 2px 6px 1px rgba(0, 0, 0, 0.2);
+      box-shadow: inset 1px 2px 6px 1px rgba(0, 0, 0, 0.2); }
+    .getquote-product .quote-wrapper .form-testimonial .form-testimonial-wrapper .form-group label.control-label.col-md-3 {
+      padding: 5px 0; }
+    .getquote-product .quote-wrapper .form-testimonial .form-testimonial-wrapper .form-group .btn-submit-testimonial {
+      background: #403e3f !important;
+      margin: 5px;
+      width: auto;
+      border: 1px solid #fff !important;
+      color: #fff !important;
+      border: 1px solid #fff !important;
+      text-transform: uppercase;
+      padding: 8px 55px 8px 15px;
+      width: auto;
+      -webkit-transition: all 0.6s ease;
+      -moz-transition: all 0.6s ease;
+      -ms-transition: all 0.6s ease;
+      -o-transition: all 0.6s ease;
+      transition: all 0.6s ease; }
+      .getquote-product .quote-wrapper .form-testimonial .form-testimonial-wrapper .form-group .btn-submit-testimonial:hover {
+        color: #fff !important;
+        background: #0043c8 !important; }
 
 #shortcode-information-wrapper ul.row.informationcentre {
   padding: 0;
