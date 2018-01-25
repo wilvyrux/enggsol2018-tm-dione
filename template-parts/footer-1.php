@@ -177,6 +177,14 @@ if ( Kirki::get_option( 'tm-dione', 'footer_parallax_enable' ) == 1 ) {
                 <div class="col-md-12 body-content form-testimonial">
                     <?php echo do_shortcode( $page->post_content ); ?>
                 </div>
+    
+                
+<!--                GET THE PAGE ID TITLE-->
+<!--                Apply Now-->
+                <?php $page = get_page( 4908 ); ?>
+                <div class="col-md-12 body-content form-apply-now">
+                    <?php echo do_shortcode( $page->post_content ); ?>
+                </div>
                 
                 
                 
@@ -218,10 +226,16 @@ if ( Kirki::get_option( 'tm-dione', 'footer_parallax_enable' ) == 1 ) {
         jQuery(".close2").click(function(e){
             e.preventDefault();
                 jQuery(".getquote-product").fadeOut(800);
+                jQuery('.getquote-product .body-content').each(function() {
+                    jQuery(this).removeClass('visible');
+                });
         });
         jQuery(".invisible_btn").click(function(e){
             e.preventDefault();
                 jQuery(".getquote-product").fadeOut(800);
+                jQuery('.getquote-product .body-content').each(function() {
+                    jQuery(this).removeClass('visible');
+                });
         });
     
     
@@ -234,6 +248,7 @@ if ( Kirki::get_option( 'tm-dione', 'footer_parallax_enable' ) == 1 ) {
             jQuery(".body-content.form-request").removeClass('visible');
             jQuery(".body-content.form-jobalert").removeClass('visible');
              jQuery(".body-content.form-testimonial").removeClass('visible');
+                jQuery(".body-content.form-apply-now").removeClass('visible');
         });
     
     
@@ -245,6 +260,7 @@ if ( Kirki::get_option( 'tm-dione', 'footer_parallax_enable' ) == 1 ) {
             jQuery(".body-content.form-jobalert").removeClass('visible');
             jQuery(".body-content.form-contact").removeClass('visible');
              jQuery(".body-content.form-testimonial").removeClass('visible');
+                jQuery(".body-content.form-apply-now").removeClass('visible');
         });
     
 //        request resume
@@ -255,6 +271,7 @@ if ( Kirki::get_option( 'tm-dione', 'footer_parallax_enable' ) == 1 ) {
                 jQuery(".body-content.form-jobalert").removeClass('visible');
                 jQuery(".body-content.form-contact").removeClass('visible');
                 jQuery(".body-content.form-testimonial").removeClass('visible');
+                jQuery(".body-content.form-apply-now").removeClass('visible');
         });
         
     
@@ -265,6 +282,7 @@ if ( Kirki::get_option( 'tm-dione', 'footer_parallax_enable' ) == 1 ) {
                 jQuery(".body-content.form-resume").removeClass('visible');
                 jQuery(".body-content.form-contact").removeClass('visible');
                 jQuery(".body-content.form-testimonial").removeClass('visible');
+                jQuery(".body-content.form-apply-now").removeClass('visible');
         });
     
     
@@ -275,6 +293,7 @@ if ( Kirki::get_option( 'tm-dione', 'footer_parallax_enable' ) == 1 ) {
                 jQuery(".body-content.form-resume").removeClass('visible');
                 jQuery(".body-content.form-contact").removeClass('visible');
                 jQuery(".body-content.form-testimonial").removeClass('visible');
+                jQuery(".body-content.form-apply-now").removeClass('visible');
         });
 
 
@@ -298,3 +317,7 @@ jQuery(window).scroll(function() {
     }
 });
 </script>
+
+<style>
+    #jobresults-wrapper .count-results { display: none; }
+</style>

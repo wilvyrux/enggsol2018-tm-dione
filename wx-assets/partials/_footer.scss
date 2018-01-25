@@ -89,14 +89,81 @@
             }
             
             
-            
+            &:first-child {
+                ul#menu-footer-enggsol-details {
+                    position: absolute;
+                    top: 40px;
+                    left: 90px;
+
+
+                    @media only screen and (max-width:990px) {
+                        position:inherit;
+                        top: inherit;
+                        left: inherit;
+                    }
+
+
+
+                    li {
+                        a {
+                            pointer-events:none;
+                            text-decoration: none;
+                            text-transform: uppercase;
+                        }
+                    }
+                }
+            }
+
+
             
             &:last-child {
+                padding:0 !important;
                 
                 aside {
+                    margin: 0 !important;
+
+                    ul#menu-footer-menu {
+                        margin:0 !important;
+
+                        li {
+
+                            a {
+                                &:hover {
+                                    color:$color-secondary;
+                                }
+                            }
+
+                            &::after {
+                                content: '|';
+                                margin-left: 10px;
+                            }
+
+                            &:last-child {
+                                &::after {
+                                   display: none;
+                                }
+
+                            }
+
+                            display: inline-block;
+                            margin-right: 10px;
+                        }
+                      
+                    }
+
+
                     div {
+
                         font-size: 0.750em;
                         padding: 11px 0px;
+                    }
+                }
+
+
+                // copyright holder
+                #text-5 {
+                    > div {
+                        padding:0 !important;
                     }
                 }
                               

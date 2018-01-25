@@ -170,11 +170,11 @@ p {
     height: 229px; }
 
 .page-id-3308 .side-contacts {
-  top: 30% !important; }
+  top: 10% !important; }
   .page-id-3308 .side-contacts a.employer {
     display: block !important; }
   .page-id-3308 .side-contacts a.jobseeker {
-    display: block !important; }
+    display: none !important; }
 
 .page-template-template-jobseeker .left-menu ul li:nth-child(1) a,
 .page-template-template-jobseeker-subpages .left-menu ul li:nth-child(1) a,
@@ -490,9 +490,40 @@ p {
       .site-footer .footer-column-container > div:nth-child(2) aside:last-child ul li::after {
         content: '|';
         margin-left: 5px; }
-  .site-footer .footer-column-container > div:last-child aside div {
-    font-size: 0.750em;
-    padding: 11px 0px; }
+  .site-footer .footer-column-container > div:first-child ul#menu-footer-enggsol-details {
+    position: absolute;
+    top: 40px;
+    left: 90px; }
+    @media only screen and (max-width: 990px) {
+      .site-footer .footer-column-container > div:first-child ul#menu-footer-enggsol-details {
+        position: inherit;
+        top: inherit;
+        left: inherit; } }
+    .site-footer .footer-column-container > div:first-child ul#menu-footer-enggsol-details li a {
+      pointer-events: none;
+      text-decoration: none;
+      text-transform: uppercase; }
+  .site-footer .footer-column-container > div:last-child {
+    padding: 0 !important; }
+    .site-footer .footer-column-container > div:last-child aside {
+      margin: 0 !important; }
+      .site-footer .footer-column-container > div:last-child aside ul#menu-footer-menu {
+        margin: 0 !important; }
+        .site-footer .footer-column-container > div:last-child aside ul#menu-footer-menu li {
+          display: inline-block;
+          margin-right: 10px; }
+          .site-footer .footer-column-container > div:last-child aside ul#menu-footer-menu li a:hover {
+            color: #0043c8 !important; }
+          .site-footer .footer-column-container > div:last-child aside ul#menu-footer-menu li::after {
+            content: '|';
+            margin-left: 10px; }
+          .site-footer .footer-column-container > div:last-child aside ul#menu-footer-menu li:last-child::after {
+            display: none; }
+      .site-footer .footer-column-container > div:last-child aside div {
+        font-size: 0.750em;
+        padding: 11px 0px; }
+    .site-footer .footer-column-container > div:last-child #text-5 > div {
+      padding: 0 !important; }
 
 .extension {
   text-align: center;
@@ -808,6 +839,31 @@ li.zero-padding .ginput_container select, li.zero-padding .ginput_container text
 
 li.nolabel label {
   display: none !important; }
+
+li.checkbox-details .ginput_container_checkbox {
+  width: 15px;
+  height: 25px;
+  float: left !important;
+  display: block; }
+
+li.checkbox-details > .gfield_description {
+  display: block;
+  float: left !important;
+  width: 90% !important;
+  clear: none;
+  padding-left: 10px !important;
+  padding-top: 0 !important; }
+
+li.enable-label .gfield_checkbox li {
+  display: block !important;
+  width: 100%;
+  margin: 0 !important;
+  padding: 5px 0 !important; }
+  li.enable-label .gfield_checkbox li input {
+    margin: 0 !important;
+    margin-top: 2px !important; }
+  li.enable-label .gfield_checkbox li label {
+    display: block !important; }
 
 /*RADIO BUTTON*/
 input[type="radio"] {
@@ -2070,7 +2126,8 @@ input[type="radio"]:checked + label span {
     .getquote-product .quote-wrapper .body-content.form-resume,
     .getquote-product .quote-wrapper .body-content.form-request,
     .getquote-product .quote-wrapper .body-content.form-jobalert,
-    .getquote-product .quote-wrapper .body-content.form-testimonial {
+    .getquote-product .quote-wrapper .body-content.form-testimonial,
+    .getquote-product .quote-wrapper .body-content.form-apply-now {
       display: none; }
     .getquote-product .quote-wrapper .body-content.visible {
       display: block; }
