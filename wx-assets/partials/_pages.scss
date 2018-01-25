@@ -121,6 +121,7 @@
         padding: 4px 10px;
         -webkit-box-shadow: 0 0 1px 1px #363636;
         box-shadow: 0 0 1px 1px #363636;
+        min-height: 40px;
 
         .CaptionCont.SelectBox {
             border:0 !important;
@@ -128,6 +129,13 @@
         }
 
 
+    }
+
+    .rty-search-form {
+        input {
+            padding: 9px !important;
+            min-height: 40px;
+        }
     }
 
     .site-content {

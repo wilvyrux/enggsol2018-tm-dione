@@ -97,6 +97,11 @@ p {
   font-weight: 700;
   padding: 5px 0; }
 
+.cursor-status {
+  cursor: pointer; }
+  .cursor-status:hover {
+    opacity: .4; }
+
 .primary-buttons {
   padding: 10px 35px 10px 15px;
   background: #403e3f !important;
@@ -1049,9 +1054,14 @@ input[type="radio"]:checked + label span {
   background: #fff !important;
   padding: 4px 10px;
   -webkit-box-shadow: 0 0 1px 1px #363636;
-  box-shadow: 0 0 1px 1px #363636; }
+  box-shadow: 0 0 1px 1px #363636;
+  min-height: 40px; }
   .page-template-template-jobseeker .SumoSelect .CaptionCont.SelectBox {
     border: 0 !important; }
+
+.page-template-template-jobseeker .rty-search-form input {
+  padding: 9px !important;
+  min-height: 40px; }
 
 .page-template-template-jobseeker .site-content .entry-content .vc_column-inner .wpb_wrapper ul li > div {
   width: 100%; }
@@ -2054,6 +2064,8 @@ input[type="radio"]:checked + label span {
         border-bottom: 92px solid #403e3f !important;
         border-right: 92px solid transparent;
         bottom: 0; }
+      .getquote-product .header_modal_warpper .modal_logo .widget_nav_menu {
+        display: none; }
     .getquote-product .header_modal_warpper:after {
       display: block;
       content: '';
@@ -2127,7 +2139,8 @@ input[type="radio"]:checked + label span {
     .getquote-product .quote-wrapper .body-content.form-request,
     .getquote-product .quote-wrapper .body-content.form-jobalert,
     .getquote-product .quote-wrapper .body-content.form-testimonial,
-    .getquote-product .quote-wrapper .body-content.form-apply-now {
+    .getquote-product .quote-wrapper .body-content.form-apply-now,
+    .getquote-product .quote-wrapper .body-content {
       display: none; }
     .getquote-product .quote-wrapper .body-content.visible {
       display: block; }

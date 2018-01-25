@@ -87,6 +87,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6054098', e
                 border-right: 92px solid transparent;
                 bottom: 0;
             }
+
+
+            // hide menu text on model header
+            .widget_nav_menu {
+                display: none;
+            }
             
             
         }
@@ -235,7 +241,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6054098', e
         .body-content.form-request,
         .body-content.form-jobalert,
         .body-content.form-testimonial,
-        .body-content.form-apply-now
+        .body-content.form-apply-now,
+        .body-content
         {
          display: none;   
         }

@@ -183,3 +183,11 @@ p {
 
 
 
+.cursor-status {
+    cursor: pointer;
+
+    &:hover {
+        opacity: .4;
+    }
+}
+
